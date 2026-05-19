@@ -34,4 +34,14 @@ jobs:
       - name: Print success message
         run: echo "✅ Workflow completed successfully!"
 
+      - name: Access secret safely
+        run: echo "Secret is configured (hidden for security)"
+
+      - name: Check secret exists
+        run: |
+          if [ -n "${{ secrets.TEST_SECRET }}" ]; then
+            echo "Secret is set ✅"
+          else
+            echo "Secret is missing ❌"
+          fi
         #my second test change
