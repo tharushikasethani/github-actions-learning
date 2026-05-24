@@ -1,4 +1,4 @@
-# ⭐ Intermediate Badge Submission - Your Name
+# ⭐ Intermediate Badge Submission - Tharushika
 
 ## Completed Tasks
 - Task 4: Custom Workflow
